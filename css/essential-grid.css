@@ -1,0 +1,425 @@
+.myportfolio-container .added_to_cart.wc-forward {
+    font-family: "Lato";
+    font-size: 13px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.esgbox-title.esgbox-title-outside-wrap {
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.esgbox-title.esgbox-title-inside-wrap {
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Golfclub navigation */
+.golfclub-navigation .navigationbuttons,
+.golfclub-navigation .esg-pagination,
+.golfclub-navigation .esg-filters {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.golfclub-navigation .esg-filterbutton,
+.golfclub-navigation .esg-navigationbutton,
+.golfclub-navigation .esg-sortbutton,
+.golfclub-navigation .esg-cartbutton {
+    color: #606466;
+    margin-right: 30px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    padding: 10px 0 6px 0;
+    border-bottom: 2px solid transparent;
+    line-height: 12px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    display: inline-block;
+    background: #fff;
+    margin-bottom: 50px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.golfclub-navigation .esg-navigationbutton {
+    padding: 23px 26px;
+    border: none;
+    background-color: #f7f5f1;
+}
+
+.golfclub-navigation .esg-navigationbutton * {
+    color: #606466;
+}
+
+.golfclub-navigation .esg-pagination-button {
+    margin: 50px 3px 0 0;
+}
+
+.golfclub-navigation .esg-pagination-button:last-child {
+    margin-right: 0;
+}
+
+.golfclub-navigation .esg-sortbutton-wrapper,
+.golfclub-navigation .esg-cartbutton-wrapper {
+    display: inline-block;
+}
+
+.golfclub-navigation .esg-sortbutton-order,
+.golfclub-navigation .esg-cartbutton-order {
+    display: inline-block;
+    vertical-align: top;
+    border: none;
+    width: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #999;
+    cursor: pointer;
+    background: #fff;
+    margin-left: 5px;
+}
+
+.golfclub-navigation .esg-cartbutton {
+    color: #fff;
+    cursor: default;
+}
+
+.golfclub-navigation .esg-cartbutton .esgicon-basket {
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+    margin-right: 10px;
+}
+
+.golfclub-navigation .esg-cartbutton-wrapper {
+    cursor: default;
+}
+
+.golfclub-navigation .esg-sortbutton,
+.golfclub-navigation .esg-cartbutton {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    margin-right: 0;
+}
+
+.golfclub-navigation .esg-filterbutton:hover,
+.golfclub-navigation .esg-sortbutton:hover,
+.golfclub-navigation .esg-sortbutton-order:hover,
+.golfclub-navigation .esg-cartbutton-order:hover {
+    border-color: #e26824;
+    color: #e26824;
+    background: #fff;
+}
+
+.golfclub-navigation .esg-navigationbutton:hover {
+    background-color: #e26824;
+    color: #ffffff;
+}
+
+.golfclub-navigation .esg-sortbutton-order.tp-desc:hover {
+    color: #e26824;
+}
+
+.golfclub-navigation .esg-filter-checked {
+    padding: 1px 3px;
+    color: #e26824;
+    background: #ffffff;
+    margin-left: 7px;
+    font-size: 9px;
+    font-weight: 300;
+    line-height: 9px;
+    vertical-align: middle;
+}
+
+.golfclub-navigation .esg-filterbutton.selected .esg-filter-checked {
+    padding: 1px 3px 1px 3px;
+    color: #fff;
+    background: #fff;
+    margin-left: 7px;
+    font-size: 9px;
+    font-weight: 300;
+    line-height: 9px;
+    vertical-align: middle;
+}
+
+.golfclub-navigation .esg-filterbutton.selected {
+    background-color: #ffffff;
+    color: #e26824;
+    border-color: #e26824;
+}
+
+.golfclub-navigation .esg-pagination .esg-filterbutton.selected {
+    background-color: #e26824;
+    color: #ffffff;
+}
+
+/* Golfclub Gallery skin */
+.eg-golfclub-gallery-skin-element-0 {
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    font-weight: 100;
+    padding: 16px;
+    border-radius: 0 0 0 0;
+    background-color: rgba(126, 157, 16, 1.00);
+    z-index: 2;
+    display: block;
+    font-family: "Lato";
+    border: 0 #ffffff solid;
+
+}
+
+.eg-golfclub-gallery-skin-element-12 {
+    font-size: 13px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 300;
+    padding: 5px 10px 5px 10px;
+    border-radius: 0 0 0 0;
+    background-color: rgba(255, 255, 255, 0.15);
+    z-index: 2;
+    display: block;
+    font-family: "Lato";
+    text-transform: uppercase;
+}
+
+.eg-golfclub-gallery-skin-element-0:hover {
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    font-weight: 100;
+    border-radius: 0 0 0 0;
+    background-color: rgba(126, 157, 16, 1.00);
+    font-family: "Lato";
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-color: #ffffff;
+    border-style: solid;
+}
+
+.eg-golfclub-gallery-skin-element-12:hover {
+    font-size: 13px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 300;
+    border-radius: 0 0 0 0;
+    background-color: rgba(255, 255, 255, 0.15);
+    font-family: "Lato";
+    text-transform: uppercase;
+}
+
+.eg-golfclub-gallery-skin-element-0-a {
+    display: inline-block;
+    float: none;
+    clear: none;
+    margin: 0 0 0 0;
+    position: relative;
+}
+
+.eg-golfclub-gallery-skin-element-12-a {
+    display: inline-block;
+    float: none;
+    clear: both;
+    margin: 15px 0 0 0;
+    position: relative;
+}
+
+.eg-golfclub-gallery-skin-container {
+    background-color: rgba(0, 0, 0, 0.60);
+}
+
+.eg-golfclub-gallery-skin-content {
+    background-color: #ffffff;
+    padding: 0;
+    border-width: 0 0 0 0;
+    border-radius: 0 0 0 0;
+    border-color: transparent;
+    border-style: double;
+    text-align: center;
+}
+
+.esg-grid .mainul li.eg-golfclub-gallery-skin-wrapper {
+    background-color: #3f424a;
+    padding: 0;
+    border-width: 0 0 0 0;
+    border-radius: 0 0 0 0;
+    border-color: transparent;
+    border-style: none;
+}
+
+.esg-grid-cobbles, .esg-certificates, .esg-grid-masonry{
+    background-color: transparent;
+    padding: 0;
+    -webkit-box-sizing:border-box;
+       -moz-box-sizing:border-box;
+            box-sizing:border-box;
+}
+
+.eg-golfclub-gallery-skin-element-8{
+    height: 5px;
+    visibility: hidden;
+}
+
+/* Certificates skin */
+.eg-certificates-skin-element-10 {
+    font-size: 14px;
+    line-height: 14px;
+    color: #ffffff;
+    font-weight: 200;
+    padding: 16px;
+    border-radius: 0 0 0 0;
+    background-color: rgba(226, 104, 36, 1.00);
+    z-index: 2;
+    display: block;
+    border: 0 #ffffff solid;
+}
+
+.eg-certificates-skin-element-10:hover {
+    font-size: 14px;
+    line-height: 14px;
+    color: #ffffff;
+    font-weight: 200;
+    border-radius: 0 0 0 0;
+    background-color: rgba(203, 93, 32, 1.00);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-color: #ffffff;
+    border-style: solid;
+}
+.eg-certificates-skin-element-10-a {
+    display: inline-block;
+    float: none;
+    clear: none;
+    margin: 0 0 0 0;
+    position: relative;
+}
+.eg-certificates-skin-container {
+    background-color: rgba(255, 255, 255, 0.60);
+}
+.eg-certificates-skin-content {
+    background-color: #ffffff;
+    padding: 0;
+    border-width: 0 0 0 0;
+    border-radius: 0 0 0 0;
+    border-color: transparent;
+    border-style: double;
+    text-align: left;
+}
+.esg-grid .mainul li.eg-certificates-skin-wrapper {
+    background-color: #3f424a;
+    padding: 0;
+    border-width: 0 0 0 0;
+    border-radius: 0 0 0 0;
+    border-color: transparent;
+    border-style: none;
+}
+
+/* Golfclub Gallery Skin */
+.eg-golfclub-gallery-skin-element-0 {
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    font-weight: 100;
+    padding: 16px;
+    border-radius: 0 0 0 0;
+    background-color: rgba(126, 157, 16, 1.00);
+    z-index: 2;
+    display: block;
+    font-family: "Lato";
+    border: 0 #ffffff solid;
+}
+
+.eg-golfclub-gallery-skin-element-0:hover {
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    font-weight: 100;
+    border-radius: 0 0 0 0;
+    background-color: rgba(126, 157, 16, 1.00);
+    font-family: "Open Sans";
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-color: #ffffff;
+    border-style: solid;
+}
+
+.eg-golfclub-gallery-skin-element-12 {
+    font-size: 13px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 300;
+    padding: 5px 10px 5px 10px;
+    border-radius: 0 0 0 0;
+    background-color: rgba(255, 255, 255, 0.15);
+    z-index: 2;
+    display: block;
+    font-family: "Lato";
+    text-transform: uppercase;
+}
+
+.eg-golfclub-gallery-skin-element-12:hover {
+    font-size: 13px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 300;
+    border-radius: 0 0 0 0;
+    background-color: rgba(255, 255, 255, 0.15);
+    font-family: "Lato";
+    text-transform: uppercase;
+}
+
+.eg-golfclub-gallery-skin-element-0-a {
+    display: inline-block;
+    float: none;
+    clear: none;
+    margin: 0;
+    position: relative;
+}
+
+.eg-golfclub-gallery-skin-element-12-a {
+    display: inline-block;
+    float: none;
+    clear: both;
+    margin: 15px 0 0 0;
+    position: relative;
+}
+
+.eg-golfclub-gallery-skin-container {
+    background-color: rgba(0, 0, 0, 0.60)
+}
+
+.eg-golfclub-gallery-skin-content {
+    background-color: #ffffff;
+    padding: 0;
+    border-width: 0 0 0 0;
+    border-radius: 0 0 0 0;
+    border-color: transparent;
+    border-style: double;
+    text-align: center
+}
+
+.esg-grid .mainul li.eg-golfclub-gallery-skin-wrapper {
+    background-color: #3f424a;
+    padding: 0;
+    border-width: 0 0 0 0;
+    border-radius: 0 0 0 0;
+    border-color: transparent;
+    border-style: none
+}
